@@ -26,3 +26,7 @@ This is a fork of jquery-i18n-properties located here: https://code.google.com/p
 ** e.g. If the user wants japanese, korean then english, the key lookup will check the japanese strings then korean then english until a match is found
 * Support for country and region
 ** e.g. en_UK will take priority then fall back to en
+
+#Added Feature in fork
+*The callback method gets a variable back with
+    *foundLocaleSpecificFile: true if found false otherwise
